@@ -1,0 +1,13 @@
+.contain{
+    display: block;
+    align-items: center;
+    position:relative;
+    justify-content: center;
+    align-content: center;
+    margin:10px;
+    background-color: rgba(240, 248, 255, 0.773) ;
+    padding:1rem;
+    border-radius:1rem;
+    width:40rem;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.268);
+}

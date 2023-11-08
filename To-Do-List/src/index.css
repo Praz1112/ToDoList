@@ -1,0 +1,16 @@
+*{
+  box-sizing:0;
+  margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  background-repeat:round;
+  background-size:inherit;
+  position: relative;
+  height:100vh;
+  background-image: linear-gradient(to  bottom right,  rgb(161, 252, 161), rgb(243, 250, 146));
+}

@@ -1,0 +1,36 @@
+input{
+    border-radius:5px;
+    margin:5px;
+    border:2px  solid rgba(221, 211, 211, 0.748);
+    float: left;
+}
+.sub{
+    margin-top:10px;
+    background-color: rgb(27, 210, 27);
+    color:#fff;
+    padding:5px;
+    float: right;
+}
+.sub:hover{
+    transform: scale(1.1);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{ 
+ position: absolute;   
+ top:15%;
+ left:25%;   
+ animation-name: ani;
+ animation-duration:.5s;
+}
+@keyframes ani{
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
